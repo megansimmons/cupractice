@@ -1,0 +1,91 @@
+body {
+    color: rgb(0,10,119);
+    font-family: "American Typewriter", serif;
+    background-color: rgb(185,223,229);
+}
+h1 {
+    color: rgb(0,10,119);
+    text-shadow: 3px 3px 0px rgb(219,87,230);
+    letter-spacing: 0.1em;
+    text-align: center;
+    background-color: rgb(255,255,255);
+    border-radius: 25px;
+}
+hr {
+    background-color: rgb(255,255,255);
+    border: 0 none;
+    height: 2px;
+}
+h2 {
+    color: rgb(97,147,82);
+    font-weight: lighter;
+    text-decoration: none;/*this isn't over-riding section:first-child even if moved lower on stylesheet.*/
+}
+
+section:first-child ul {
+    text-decoration: underline;
+}
+/*this underlined all h2s
+h2:first-child {
+    text-decoration: underline;
+}
+*/
+/*this doesn't underline anything in the first section/ul.
+ul:first-child {
+    text-decoration: underline;
+}*/
+
+/*this underlines h2 and all li in first ul
+section:first-child {
+    text-decoration: underline;
+}
+*/
+/*both of these underlines first li in both ul
+ul > :first-child {
+    text-decoration: underline;
+}
+ul > li:first-child {
+    text-decoration: underline;
+}
+*/
+/*nothing is underlined
+ul:first-child li {
+    text-decoration: underline;
+}
+*/
+/*nothing is underlined
+main:first-child {
+    text-decoration: underline;
+}
+*/
+/*nada esta subrayada :(
+h2> :first-child {
+    text-decoration: underline;
+}
+*/
+/*this did nothing
+h2:nth-child(2) {
+    background-color: white;
+}
+*/
+/*this gives background color to all 3 li in the ol, but not the h2
+ol:nth-child(2) {
+    background-color: white;
+}
+*/
+
+section:nth-child(2) {
+    background-color: rgb(255,255,255); /*nailed it! h2 of ol and ol has white background.*/
+}
+section:nth-child(5) {
+    text-align: center; /*this centers h2 and images*/
+}
+img {
+    transform: rotate(10deg) translate(-120px,50px); /*this works!*/
+    /*margin-left: 0px;  no change*/
+    /*transform-origin: 10%; moved images up
+    transform-origin: 0% 10%; moved up a bit more and to the right
+    transform-origin: left;  moved up again! */
+    /*transform: translate(-10px); overwrites above transform/straightens imgs*/
+    /*transform: skewX(160deg); warps imgs*/
+}

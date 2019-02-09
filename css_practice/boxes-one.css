@@ -1,0 +1,74 @@
+
+/*@font-face {
+  font-family: 'Coiny';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coiny Regular'), local('Coiny-Regular'), url(https://fonts.gstatic.com/s/coiny/v4/gyByhwU1K989PUwcGFWNOITd.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+*/
+/*@font-face {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Staatliches Regular'), local('Staatliches-Regular'), url(https://fonts.gstatic.com/s/staatliches/v2/HI_OiY8KO6hCsQSoAPmtMYebvpCfOMPT.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+*/
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: Coiny;
+	margin-bottom: 0px;
+}
+
+.box {
+	width: 75px;
+	height: 75px;
+	padding: 10px;
+	border: solid black 2px;
+	margin: 25px;
+	/*clear: right;*/
+	/*float: right;*/
+}	
+
+p {
+	width: 200px;
+	height: 20px;
+	padding: 10px;
+	margin: 50px 0px;
+	text-align: center;
+	font-size: 14px;
+	font-family: Staatliches;
+	/*clear: right;*/
+}
+
+#a {
+	background-color: #f0f5f5;
+	
+		
+}
+
+#b {
+	background-color: #d0e2e2;
+	
+}
+
+#c {
+	background-color: #b1cece;
+	/*clear: right;*/
+	
+}
+
+#d {
+	background-color: #91baba;
+	
+}
+
+#e {
+	background-color: #72a7a7;
+	/*clear: right;*/
+}
+ #f{
+ 	background-color: #588d8d;
+ 	
+ }

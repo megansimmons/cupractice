@@ -1,0 +1,81 @@
+/*body {*/
+    /*background-color: #72a7a7;*/
+/*}*/
+
+/*.row {*/
+    /*border: 1px solid black;*/
+/*}*/
+/*.column {*/
+    /*border: 1px solid black;*/
+/*}*/
+
+/*header {*/
+    /*background-color: #e6e6e6*/
+    /*background-image: url("../pics/logo.jpg");*/
+    /*height: 205px;*/
+/*}*/
+
+/*This was the logo.jpg for codeup design project*/
+/*img {*/
+    /*width: 205px;*/
+    /*height: 205px;*/
+/*}*/
+
+/*This is seigaiha.png*/
+/*img {*/
+    /*width: 100%; !*expands to match width of row it is in*!*/
+/*}*/
+
+/*This seems to be the only way to get text on top of an image with bootstrap grid...so far*/
+/*header {*/
+    /*background-image: url("../pics/seigaiha.png");*/
+/*}*/
+img {
+    width: 250px;
+    height: 250px;
+}
+    /*opacity: 0.5; !*this caused all images in each row of <main> to be "overlayed" with their respective bg colors*!*/
+/*}*/
+/*.col-3 {*/
+    /*background-color: #72a7a7;*/
+/*}*/
+/*!*for 8 cols in a row, 110px x110px looks like the largest an img can get...background color will not appear bc of padding...also used id multiple times-bad form*!*/
+
+
+/*!*#logo {*!*/
+    /*!*width: 110px;*!*/
+    /*!*height: 110px;*!*/
+    /*!*background-color: #800080;*!*/
+/*!*}*!*/
+
+/*.logo {*/
+    /*background-color: #a52a2a;*/
+    /*!*padding: 0;*/
+    /*not much changed*!*/
+/*}*/
+
+
+/*.logo-sm {*/
+    /*width: 80px;*/
+    /*height: 80px;*/
+    /*background-color: #800080; !*bg-color still not appearing*!*/
+/*}*/
+
+
+
+/*#row3 {*/
+    /*background-color: #800080; !*now bg-color appears between padding of images*!*/
+/*}*/
+
+/*img {*/
+    /*height: 10em;*/
+    /*width: 16em;*/
+/*}*/
+.mini {
+    height: 4em;
+    width: 4em;
+}
+#icon {
+    height: 2em;
+    width: 2em;
+}

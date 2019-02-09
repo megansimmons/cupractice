@@ -1,0 +1,19 @@
+h1 {
+	color: green;
+}
+body {
+	background-image: url("../pics/pipes.png");
+}
+
+a:link {
+	color: red;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: blue;
+}
+a:active {
+	color: green;
+}

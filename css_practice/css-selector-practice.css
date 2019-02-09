@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #faebd7;
+}
+nav {
+    /*width: 100%;*/ /*not needed*/
+}
+ul {
+    text-align: center; /*must be set here, on <li> has no effect*/
+    border-bottom-style: groove;
+    /*position: relative;*/ /*this seems to be unnecessary*/
+    /*display: inline-block;*/ /*cannot set a block level element to display:inline-block*/
+}
+li {
+    display: inline-block;
+    list-style: none;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 40px;
+    /*width: 100%;*/ /*caused <li> to list vertically in center of page*/
+    /*text-align: center; /*no change*/
+}
+
+/*This is an example of descendant selectors. All <h3> that are children of <article> receive the following properties.*/
+article h3 {
+    background-color: #ff7f50;
+    font-family: "American Typewriter";
+    text-align: center;
+}
+
+/*This is an example of direct child selector. Only the <h2> of the <article> with class="first" will receive the following properties.*/
+
+.first>h2 {
+    font-family: Verdana;
+    background-color: #588d8d;
+    font-size: 4em;
+    text-align: right;
+}
